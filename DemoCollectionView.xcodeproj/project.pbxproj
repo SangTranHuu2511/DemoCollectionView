@@ -14,7 +14,6 @@
 		5EC3161F2022506400E5CE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3161D2022506400E5CE4D /* LaunchScreen.storyboard */; };
 		5EC316272022520100E5CE4D /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC316262022520100E5CE4D /* MyCollectionViewCell.swift */; };
 		5EC31629202285D900E5CE4D /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC31628202285D900E5CE4D /* SectionHeaderView.swift */; };
-		5EC3162B20228B4600E5CE4D /* SectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3162A20228B4600E5CE4D /* SectionFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		5EC316202022506400E5CE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC316262022520100E5CE4D /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		5EC31628202285D900E5CE4D /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
-		5EC3162A20228B4600E5CE4D /* SectionFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				5EC3161B2022506400E5CE4D /* Assets.xcassets */,
 				5EC3161D2022506400E5CE4D /* LaunchScreen.storyboard */,
 				5EC316202022506400E5CE4D /* Info.plist */,
-				5EC3162A20228B4600E5CE4D /* SectionFooterView.swift */,
 			);
 			path = DemoCollectionView;
 			sourceTree = "<group>";
@@ -149,7 +146,6 @@
 				5EC316152022506400E5CE4D /* AppDelegate.swift in Sources */,
 				5EC316272022520100E5CE4D /* MyCollectionViewCell.swift in Sources */,
 				5EC31629202285D900E5CE4D /* SectionHeaderView.swift in Sources */,
-				5EC3162B20228B4600E5CE4D /* SectionFooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +309,7 @@
 				5EC316252022506400E5CE4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
